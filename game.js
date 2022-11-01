@@ -34,7 +34,7 @@ function content(coin, line, resGame) {
     enter: line,
     resGame: resGame
   };  
-  return (JSON.stringify(lineOut) + '\n');
+  return ('\n' + JSON.stringify(lineOut) );
 }
 
 function questMe() {
