@@ -1,0 +1,12 @@
+{
+  "name": "heads_or_tails",
+  "version": "1.0.0",
+  "description": "Домашнее задание к занятию «1.4 Потоки. Модули: fs, path»",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node game.js"
+  },
+  "author": "Butusov S. A.",
+  "license": "ISC"
+}
