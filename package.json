@@ -8,5 +8,8 @@
     "start": "node game.js"
   },
   "author": "Butusov S. A.",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
 }
