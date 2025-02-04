@@ -21,13 +21,13 @@ const argv = yargs(hideBin(process.argv))
 const file = path.join(__dirname, argv.filePath);
 
 console.log('Файл для записи лога:', argv.filePath);
-console.log('Для завершения игры введите любые значения кроме 1 и 2');
+console.log('Для завершения игры введите любые значения кроме  1 и 2');
 
 function randInt() {
   let rand = 1 + Math.random();
   return String(Math.round(rand));
 };
-
+ 
 function content(coin, line, resGame) {
   let lineOut = {
     coin: coin,
